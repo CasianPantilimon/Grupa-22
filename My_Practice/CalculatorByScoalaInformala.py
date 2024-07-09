@@ -20,7 +20,7 @@ if stare_conversie is True:
         operator_1_convertit = float(operator_1)
         operator_2_convertit = float(operator_2)
         # print("putem efectua operatiile")
-        # aici putem efectua operatiile
+        # aici putem efectua
         # daca operatia introdusa
         if len(operatie) == 1 and operatie in "+-*/":
             rezultat = None
@@ -42,3 +42,6 @@ if stare_conversie is True:
                 print(rezultat)
             print(
                 f"Operatorul 1 este: {operator_1_convertit}, iar operatorul 2 este: {operator_1_convertit}.Rezultatul este {rezultat}")
+
+
+#This is here as a test to see if i uploaded the changes

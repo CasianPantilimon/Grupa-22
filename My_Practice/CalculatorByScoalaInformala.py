@@ -44,4 +44,4 @@ if stare_conversie is True:
                 f"Operatorul 1 este: {operator_1_convertit}, iar operatorul 2 este: {operator_1_convertit}.Rezultatul este {rezultat}")
 
 
-#This is here as a test to see if i uploaded the changes
+#This is here as a test to see if i uploaded all the changes

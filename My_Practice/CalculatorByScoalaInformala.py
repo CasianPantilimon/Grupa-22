@@ -43,5 +43,4 @@ if stare_conversie is True:
             print(
                 f"Operatorul 1 este: {operator_1_convertit}, iar operatorul 2 este: {operator_1_convertit}.Rezultatul este {rezultat}")
 
-
-#This is here as a test to see if i uploaded all the changes
+# All changes deleted

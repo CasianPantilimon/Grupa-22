@@ -16,3 +16,6 @@ def performance(func):
 def long_time():
     for i in range(100000):
         i * 5
+
+
+

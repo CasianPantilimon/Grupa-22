@@ -23,3 +23,7 @@ def fib(num):
 
 for x in fib(21):
     print(x)
+
+
+
+

@@ -108,7 +108,7 @@ else:
 
 
 # S AA LL ZZ JJ NNN C
-# 1 98 05 26 27 169 4
+# X XX XX XX XX XXX X
 # 0 12 34 56 78 9
 #               10
 #                 11

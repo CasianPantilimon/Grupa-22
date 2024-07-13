@@ -2,8 +2,6 @@
 
 # toate variabilele necesare
 
-
-
 s = range(1, 10)
 aa = range(0, 100)
 ll = range(1, 13)

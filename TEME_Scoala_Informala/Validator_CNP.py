@@ -43,7 +43,7 @@ else:
     elif int(CNP[9:12]) in nnn and CNP[9:12] == "000":
         print("Caracterele de pe indexul 10, 11 și 12 nu sunt corecte")
     elif int(CNP[12]) not in c:
-        # C-ul inca nu mi-am dat seama cum sa-l calculez asa ca pentru moment l-am pus doar intr-un interval 0-9
+        # C-ul inca nu mi-am dat seama cum sa-l calculez asa ca pentru moment l-am pus doar intr-un interval 1-9
         # voi incerca sa ma mai gandesc cum sa-l calculez pana marti
         print("Caracterul de pe indexul 13, nu este corect")
     else:

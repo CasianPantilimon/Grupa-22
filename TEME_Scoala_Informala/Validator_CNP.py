@@ -1,5 +1,3 @@
-
-
 # toate variabilele necesare
 
 s = range(1, 10)
@@ -21,10 +19,10 @@ c = range(1, 10)
 # ce vreau sa zic este ca list(range(0, 10000000)) va rula mult mai
 # usor si rapid decat an actual list care are 10000000 de cifre
 
-CNP = input("Introduceti un CNP valid: ") # cerem CNP ul sub form de input, stocat ca si "str"
+CNP = input("Introduceti un CNP valid: ")  # cerem CNP ul sub form de input, stocat ca si "str"
 
 if len(CNP) != 13:
-    print("CNP-ul trebuie să aibă exact 13 caractere.") # cerem CNP ul sa aiba fix 13 caractere
+    print("CNP-ul trebuie să aibă exact 13 caractere.")  # cerem CNP ul sa aiba fix 13 caractere
 else:
     # in loc de variabilele: s,aa,ll,zz,jj,jj2,nnn si c,
     # puteam folosi direct "range() urile in ""for loop uri" pentru a nu le mai stoca in memorie
@@ -43,12 +41,10 @@ else:
     elif int(CNP[9:12]) in nnn and CNP[9:12] == "000":
         print("Caracterele de pe indexul 10, 11 și 12 nu sunt corecte")
     elif int(CNP[12]) not in c:
-        # C-ul inca nu mi-am dat seama cum sa-l calculez asa ca pentru moment l-am pus doar intr-un interval 1-9
-        # voi incerca sa ma mai gandesc cum sa-l calculez pana marti
         print("Caracterul de pe indexul 13, nu este corect")
     else:
-# acum ca avem un CNP valid, putem sa verificam si ce inseamna numere,
-# aflad genul, anul, luna si ziua in care s a nascut persoana
+        # acum ca avem un CNP valid, putem sa verificam si ce inseamna numere,
+        # aflad genul, anul, luna si ziua in care s a nascut persoana
         if CNP[0] == "1":
             gen = "masculin, născut între 1 ianuarie 1900 și 31 decembrie 1999"
         elif CNP[0] == "2":
@@ -69,7 +65,6 @@ else:
             gen = "persoană străină"
 
         an_nastere = CNP[1:3]
-
 
         if CNP[3:5] == "01":
             luna_nastere = "Ianuarie"
@@ -101,13 +96,6 @@ else:
         print(f"{CNP} este un CNP valid. Persoana este de genul {gen}, "
               f"mai precis în anul '{an_nastere}, luna {luna_nastere}, "
               f"ziua {zi_nastere}.")
-
-
-
-
-
-
-
 
 # S AA LL ZZ JJ NNN C
 # X XX XX XX XX XXX X

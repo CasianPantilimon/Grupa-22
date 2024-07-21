@@ -5,11 +5,9 @@ casute_cu_spatii = " ".join(casute)
 tabla_joc = casute_cu_spatii[0:5] + "\n" + casute_cu_spatii[6:11] + "\n" + casute_cu_spatii[12:]
 print(tabla_joc)
 
-
-
 for casuta in tabla_joc:
     casuta_user = input("- Este randul tau sa alegi o casuta: ")
-    casute = casute.replace(casuta_user, "")
+    casute = casute.replace(casuta_user, "")  # limitam optiunile user ului
     print(casute)
     if casuta_user in tabla_joc:
         tabla_joc = tabla_joc.replace(casuta_user, "X")
@@ -46,7 +44,7 @@ for casuta in tabla_joc:
 
     casuta_PC = random.choice(casute)
     print(f"- Computerul a ales sa joace casuta: {casuta_PC}")
-    casute = casute.replace(casuta_PC, "")
+    casute = casute.replace(casuta_PC, "")  # limitam optiunile PC ului
     if casuta_PC in tabla_joc:
         tabla_joc = tabla_joc.replace(casuta_PC, "0")
         print(tabla_joc)
@@ -79,7 +77,6 @@ for casuta in tabla_joc:
             break
         elif casute == "":
             print("Remiza. Nu mai sunt mutari disponibile.")
-
 
 # pozitiile pe tabla de joc in functie de casute
 

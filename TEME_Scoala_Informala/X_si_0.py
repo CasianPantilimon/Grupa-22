@@ -4,15 +4,15 @@ casute = "123456789"
 casute_cu_spatii = " ".join(casute)
 tabla_joc = casute_cu_spatii[0:5] + "\n" + casute_cu_spatii[6:11] + "\n" + casute_cu_spatii[12:]
 print(tabla_joc)
-
+# odata ce avem tabla de joc, putem incepe
 for casuta in tabla_joc:
     casuta_user = input("- Este randul tau sa alegi o casuta: ")
     casute = casute.replace(casuta_user, "")  # limitam optiunile user ului
     print(casute)
     if casuta_user in tabla_joc:
-        tabla_joc = tabla_joc.replace(casuta_user, "X")
+        tabla_joc = tabla_joc.replace(casuta_user, "X") # inlocuim casuta aleasa cu "X"
         print(tabla_joc)
-        # toate pozitiile castigatoare in functie de randuri
+        # toate pozitiile castigatoare in functie de randuri pentru X
         if tabla_joc[0] == "X" and tabla_joc[2] == "X" and tabla_joc[4] == "X":
             print("HUMAN WINNNNS")
             break
@@ -22,7 +22,7 @@ for casuta in tabla_joc:
         elif tabla_joc[12] == "X" and tabla_joc[14] == "X" and tabla_joc[16] == "X":
             print("HUMAN WINNNNS")
             break
-        # toate pozitiile castigatoare in functie de coloane
+        # toate pozitiile castigatoare in functie de coloane pentru X
         elif tabla_joc[0] == "X" and tabla_joc[6] == "X" and tabla_joc[12] == "X":
             print("HUMAN WINNNNS")
             break
@@ -41,14 +41,20 @@ for casuta in tabla_joc:
             break
         elif casute == "":
             print("Remiza. Nu mai sunt mutari disponibile.")
-
-    casuta_PC = random.choice(casute)
-    print(f"- Computerul a ales sa joace casuta: {casuta_PC}")
-    casute = casute.replace(casuta_PC, "")  # limitam optiunile PC ului
+            break
+    if casute != "":  # prevenim programul sa afiseze:
+        # Index Error, acest bloc ruleaza doar daca mai sunt mutari disponibile
+        casuta_PC = random.choice(casute)
+        print(f"- Computerul a ales sa joace casuta: {casuta_PC}")
+        casute = casute.replace(casuta_PC, "")  # limitam optiunile PC ului
+    else:
+        print("Remiza. Nu mai sunt mutari disponibile.")
+        break
     if casuta_PC in tabla_joc:
         tabla_joc = tabla_joc.replace(casuta_PC, "0")
-        print(tabla_joc)
         print(casute)
+        print(tabla_joc)
+        # toate pozitiile castigatoare in functie de randuri pentru 0
         if tabla_joc[0] == "0" and tabla_joc[2] == "0" and tabla_joc[4] == "0":
             print("PC WINNNNS")
             break
@@ -58,7 +64,7 @@ for casuta in tabla_joc:
         elif tabla_joc[12] == "0" and tabla_joc[14] == "0" and tabla_joc[16] == "0":
             print("PC WINNNNS")
             break
-            # toate pozitiile castigatoare in functie de coloane pentru 0
+        # toate pozitiile castigatoare in functie de coloane pentru 0
         elif tabla_joc[0] == "0" and tabla_joc[6] == "0" and tabla_joc[12] == "0":
             print("PC WINNNNS")
             break
@@ -77,7 +83,7 @@ for casuta in tabla_joc:
             break
         elif casute == "":
             print("Remiza. Nu mai sunt mutari disponibile.")
-
+            break
 # pozitiile pe tabla de joc in functie de casute
 
 

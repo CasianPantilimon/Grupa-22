@@ -1,7 +1,12 @@
 # my_list = [5, 4, 3, ]
-# # In loc sa folosim o functie pentru a multiplica numerele
-# # def multiply_by_two(item):
-# #     return item * 2
+
+print(__name__)
+
+# In loc sa folosim o functie pentru a multiplica numerele
+def multiply(item, item2):
+    return item * item2
+
+
 # # putem folosi LAMBDA pentru a crea o functie "one time use". Odata ce este rulata Python o sterge din memorie
 # print(list(map(lambda item: item * 2, my_list)))
 #
@@ -15,5 +20,11 @@
 # a.sort()
 # print(a)
 # # print(list(map(lambda item: item ** 2, a)))
-#
-#
+
+
+def buy(item):
+    cart = []
+    cart.append(item)
+    return cart
+
+

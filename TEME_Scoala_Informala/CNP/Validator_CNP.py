@@ -1,4 +1,3 @@
-
 # CNP = input("Introduceti un CNP valid: ")  # cerem CNP ul sub form de input, stocat ca si "str"
 
 
@@ -95,5 +94,3 @@ def validator_CNP(CNP):
 
 
 print(validator_CNP("1980526271694"))
-
-

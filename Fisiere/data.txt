@@ -1,0 +1,3 @@
+Thinking about Python.
+Thinking about Python2.
+Thinking about Python3.

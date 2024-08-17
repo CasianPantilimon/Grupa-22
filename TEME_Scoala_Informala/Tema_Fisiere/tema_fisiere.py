@@ -19,47 +19,152 @@ că a terminat de introdus taskurile.
 Datele se salveaza in fisiere. Vor exista doua fisiere: unul pentru categorii si unul care sa contina:
 taskurile, data limita, persoana responsabila, categorie
 
-Cerințe suplimentare:
-
-Se afișează un meniu din care utilizatorul poate alege să realizeze următoarele operații:
-
-Listare date: în afișarea inițială a datelor se realizează o sortare în funcție de categorie.
-Sortare: se alege o opțiune din cele 8 de mai jos:
-Criteriile disponibile sunt:
-
-1. sortare ascendentă task
-2. sortare descendentă task
-3. sortare ascendentă data
-4. sortare descendentă data
-5. sortare ascendentă persoana responsabilă
-6. sortare descendentă persoană responsabilă
-7. sortare ascendentă categorie
-8. sortare descendentă categorie
-
-Filtrare date: filtrarea datelor reprezintă de fapt o listare a datelor în funcție de anumite detalii date de la
-tastatură. criteriile de filtrare sunt:
--       se cere de la tastatură câmpul după care se realizeaza filtrarea:
-
-1. Task
-2. Dată
-3. Persoană responsabilă
-4. Categorie
-
-- după alegerea campului de la tastatură se cere introducerea unui string utilizat pentru filtrarea
- în lista inițială de date, astfel încât din lista inițială să rămână doar datele care conțin / încep
-cu valoarea introdusă
-- se afișează lista rămasă
-
-4. Adăugarea unui nou task în lista inițială
-5. Editarea detaliilor referitoare la task, dată, persoană sau categorie dintr-un anumit task ales de
-      utilizator de la tastatură (când se cere această opțiune, se va lista lista de taskuri cu un identificator
-      unic pe rand, astfel încât să se știe ce informație urmează să editeze utilizatorul)
-
-6. Ștergerea unui task din lista inițială.
-
-Atenție! Trebuie să aveți grijă că o categorie poate să existe o singură dată (nu se accepta dubluri, ex curs,
-cumpărături, muncă, cadouri, curs este greșit)
-
-De asemenea, la adăugarea taskurilor se va avea grijă și la compararea textelor taskurilor, dacă textul
-respectiv există, nu se poate adăuga.
 """
+import time
+import json
+
+
+print("\n\rCooking stuff for you...", end="")
+time.sleep(3)
+print("\rinca un pic...👉👈 ", end="")
+time.sleep(2)
+print("\rGata 🎉🎉🎉", end="")
+time.sleep(1)
+print("\r ",)
+
+for i in range(7):
+    if i % 2 == 0:
+        print("\r⚡ Welcome to my To-Do List ⚡",end="",)
+        time.sleep(0.3)
+    else:
+        print("\r ",end="")
+        time.sleep(0.3)
+
+
+categorii = []
+tasks = {}
+
+while True:
+    meniu_imput = input("\nMeniu Optiuni:\n"
+                        "1. Adauga o categorie "
+                        "\n2. Editare categorie "
+                        "\n    - adaugare task "
+                        "\n    - data limita"
+                        "\n    - persoana responsabila"
+                        "\n3. Afisare categorii"
+                        "\n4. Afisare taskuri, data limita si persoana responsabila "
+                        "pentru o categorie"
+                        # "\n -> optiuni extra "
+                        "\n5. Exit"
+                        "\n"
+                        "\nOptiunea aleasa: ")
+
+    if meniu_imput == "1":
+        while True:
+            print("- Pentru a te intoarce la meniul initial, press '1'.")
+            print("- Pentru a afisa categoriile existente, press '2'.")
+            categorie = input("Introduceti o categorie: ")
+            if categorie == "1":
+                break
+            if categorie == "2":
+                print("Afisare categorii... ")
+                time.sleep(1)
+                print(categorii, "\n")
+                continue
+
+            print("\nAdaugare categorie...")
+            categorii.append(categorie)
+            with open("categorii.txt", "w+") as my_file:
+                json.dump(categorii, my_file)
+            time.sleep(1)
+            print("Categorie adaugata cu succes!\n")
+            continue
+
+    elif meniu_imput == "2":
+        while True:
+            print("- Pentru a te intoarce la meniul initial, press '1'.")
+            print("- Pentru a afisa taskurile existente, press '2'.")
+            print("- Pentru a afisa categoriile existente, press '3'.")
+            task = input("Adauga un task.\nDenumire task: ")
+            if task == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+            if task == "2":
+                print("\nAfisare taskuri existente...\n")
+                time.sleep(1)
+                print(tasks)
+                continue
+            if task == "3":
+                print("\nAfisare categorii existente...\n")
+                time.sleep(1)
+                print(categorii)
+                continue
+
+            data_limita = input("Introdu data limita: ")
+            if data_limita == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+            if data_limita == "2":
+                print("\nAfisare taskuri existente...\n")
+                time.sleep(1)
+                print(tasks)
+                continue
+
+            persoana_asignata = input("Introdu persoana asignata: ")
+            if persoana_asignata == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+            if persoana_asignata == "2":
+                print("\nAfisare taskuri existente...\n")
+                time.sleep(1)
+                print(tasks)
+                continue
+
+            if task not in tasks.keys():
+                alegere_categorie = input(f"Categorii disponibile: {categorii}."
+                                          f"\nAlege o categorie in care doresti sa adaugi task-ul: ")
+                if alegere_categorie in categorii:
+                    print("Procesare Task...")
+                    tasks[alegere_categorie] = [task, data_limita, persoana_asignata]
+                    time.sleep(1)
+                    print("Task creat cu succes!")
+                    with open("tasks.txt", "w+") as my_file:
+                        json.dump(tasks,my_file)
+
+                else:
+                    print("Categoria nu exista")
+
+    # elif int(meniu_imput) == 3:
+    #     data_limita = input("Introduceti o data limita: ")
+    # elif int(meniu_imput) == 4:
+    #     peroana_responsabila = input("Introduceti o persoana responsabila: ")
+    elif meniu_imput == "3":
+        print(categorii)
+        while True:
+            optiune = input("\n- Pentru a te intoarce la meniul initial, press '1'. ")
+            if optiune == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+            else:
+                print("Optiunea nu exista!")
+    elif meniu_imput == "4":
+        print(tasks)
+        while True:
+            optiune = input("\n- Pentru a te intoarce la meniul initial, press '1'. ")
+            if optiune == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+            else:
+                print("Optiunea nu exista!")
+    elif meniu_imput == "5":
+        print("Closing the list...")
+
+        break
+    else:
+        print("Optiunea nu exista!")
+        continue

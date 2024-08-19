@@ -1,1 +1,3 @@
-{"cat22": ["task1", "11.11.11", "Casian"]}
+{"cat3": ["read", "15.11.2024", "Casian"],
+"ccat2": ["run5k", "10.02.2024", "Maria"],
+"cat1": ["climb everest ", "26.06.2024", "Casian"]}

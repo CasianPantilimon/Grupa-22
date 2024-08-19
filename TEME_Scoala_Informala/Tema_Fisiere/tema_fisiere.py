@@ -32,7 +32,7 @@ print("\rGata 🎉🎉🎉", end="")
 time.sleep(1)
 print("\r ",)
 
-for i in range(7):
+for i in range(9):
     if i % 2 == 0:
         print("\r⚡ Welcome to my To-Do List ⚡",end="",)
         time.sleep(0.3)
@@ -45,7 +45,7 @@ categorii = []
 tasks = {}
 
 while True:
-    meniu_imput = input("\nMeniu Optiuni:\n"
+    meniu_imput = input("\n\nMeniu Optiuni:\n"
                         "1. Adauga o categorie "
                         "\n2. Editare categorie "
                         "\n    - adaugare task "
@@ -54,8 +54,10 @@ while True:
                         "\n3. Afisare categorii"
                         "\n4. Afisare taskuri, data limita si persoana responsabila "
                         "pentru o categorie"
+                        "\n5.Sortare Taksuri dupa data"
+                        "\n6.Sortare Categorii"
                         # "\n -> optiuni extra "
-                        "\n5. Exit"
+                        "\n7. Exit"
                         "\n"
                         "\nOptiunea aleasa: ")
 
@@ -71,6 +73,9 @@ while True:
                 time.sleep(1)
                 print(categorii, "\n")
                 continue
+            if categorie.lower() in categorii:
+                print("Categoria este deja adaugata!")
+                continue
 
             print("\nAdaugare categorie...")
             categorii.append(categorie)
@@ -81,10 +86,12 @@ while True:
             continue
 
     elif meniu_imput == "2":
+
         while True:
             print("- Pentru a te intoarce la meniul initial, press '1'.")
             print("- Pentru a afisa taskurile existente, press '2'.")
             print("- Pentru a afisa categoriile existente, press '3'.")
+            print(f"CAtegoriile existente sunt: {categorii}.")
             task = input("Adauga un task.\nDenumire task: ")
             if task == "1":
                 print("\nIntoarcere la meniul principal...\n")
@@ -95,13 +102,7 @@ while True:
                 time.sleep(1)
                 print(tasks)
                 continue
-            if task == "3":
-                print("\nAfisare categorii existente...\n")
-                time.sleep(1)
-                print(categorii)
-                continue
-
-            data_limita = input("Introdu data limita: ")
+            data_limita = input("Introdu data limita (dd.mm.yyyy): ")
             if data_limita == "1":
                 print("\nIntoarcere la meniul principal...\n")
                 time.sleep(1)
@@ -122,25 +123,21 @@ while True:
                 time.sleep(1)
                 print(tasks)
                 continue
-
-            if task not in tasks.keys():
-                alegere_categorie = input(f"Categorii disponibile: {categorii}."
-                                          f"\nAlege o categorie in care doresti sa adaugi task-ul: ")
-                if alegere_categorie in categorii:
-                    print("Procesare Task...")
-                    tasks[alegere_categorie] = [task, data_limita, persoana_asignata]
-                    time.sleep(1)
-                    print("Task creat cu succes!")
-                    with open("tasks.txt", "w+") as my_file:
-                        json.dump(tasks,my_file)
-
-                else:
-                    print("Categoria nu exista")
-
-    # elif int(meniu_imput) == 3:
-    #     data_limita = input("Introduceti o data limita: ")
-    # elif int(meniu_imput) == 4:
-    #     peroana_responsabila = input("Introduceti o persoana responsabila: ")
+            while True:
+                if task not in tasks.keys():
+                    alegere_categorie = input(f"Categorii disponibile: {categorii}."
+                                              f"\nAlege o categorie in care doresti sa adaugi task-ul: ")
+                    if alegere_categorie in categorii:
+                        print("Procesare Task...")
+                        tasks[alegere_categorie] = [task, data_limita, persoana_asignata]
+                        time.sleep(1)
+                        print("\nTask creat cu succes!\n")
+                        with open("tasks.txt", "w+") as my_file:
+                            json.dump(tasks,my_file)
+                            break
+                    else:
+                        print("Categoria nu exista!\n")
+                        continue
     elif meniu_imput == "3":
         print(categorii)
         while True:
@@ -162,7 +159,37 @@ while True:
             else:
                 print("Optiunea nu exista!")
     elif meniu_imput == "5":
-        print("Closing the list...")
+        while True:
+
+            def data_convertita(param):
+                return time.strptime(param, "%d.%m.%Y")
+
+
+            sorted_Tasks_by_time = dict(sorted(tasks.items(), key=lambda item: data_convertita(item[1][1])))
+
+            print(f"Task-urile sortate dupa data sunt: {sorted_Tasks_by_time}")
+            optiune = input("\n- Pentru a te intoarce la meniul initial, press '1'. ")
+            if optiune == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+    elif meniu_imput == "6":
+        while True:
+            categorii.sort()
+            print(categorii)
+            optiune = input("\n- Pentru a te intoarce la meniul initial, press '1'. ")
+            if optiune == "1":
+                print("\nIntoarcere la meniul principal...\n")
+                time.sleep(1)
+                break
+    elif meniu_imput == "7":
+        for i in range(7):
+            if i % 2 == 0:
+                print("\rClosing the list...", end="")
+                time.sleep(0.3)
+            else:
+                print("\r ", end="")
+                time.sleep(0.3)
 
         break
     else:

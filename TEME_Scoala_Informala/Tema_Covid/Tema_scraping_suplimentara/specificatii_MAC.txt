@@ -1,0 +1,158 @@
+[
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.15999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "512 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.22999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "512 GB, Silver, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 15\u2033 Touch Bar 2018, i7 2.2 GHz, 16 GB, AMD Radeon Pro 555X",
+  "Pret": "3.19999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/e6245739-e369-495b-b742-a12c1b1cb125_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/e6245739-e369-495b-b742-a12c1b1cb125_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 8 GB, Iris Plus Graphics 645",
+  "Pret": "3.09999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "128 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 8 GB, Iris Plus Graphics 645",
+  "Pret": "3.38999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 8 GB, Iris Plus Graphics 645",
+  "Pret": "3.19999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "128 GB, Silver, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 8 GB, Iris Plus Graphics 645",
+  "Pret": "3.38999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i7 1.7 GHz, 8 GB, Iris Plus Graphics 645",
+  "Pret": "3.46999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 2.4 GHz, 8 GB, Intel Iris Plus Graphics 655",
+  "Pret": "3.47999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Air 13\u2033 2020, M1 8 Cores, 8 GB, 7 core GPU",
+  "Pret": "3.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/8a83cacf-178a-458a-bd92-035038d8afb1_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/8a83cacf-178a-458a-bd92-035038d8afb1_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Ca nou"
+ },
+ {
+  "Nume": "Apple MacBook Air 13\u2033 2020, M1 8 Cores, 8 GB, 7 core GPU",
+  "Pret": "3.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/6a3aa0be-1144-432f-911e-07ec91413a07_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/6a3aa0be-1144-432f-911e-07ec91413a07_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Gold, Ca nou"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 2020, M1 8 Cores, 8 GB, 8 core GPU",
+  "Pret": "3.99999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/ad722382-715a-4e5d-893a-7fb98d4eb859_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/ad722382-715a-4e5d-893a-7fb98d4eb859_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Ca nou"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 2020, M1 8 Cores, 8 GB, 8 core GPU",
+  "Pret": "3.99999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/adec0c08-f1d9-4bbc-a246-1a4179179499_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/adec0c08-f1d9-4bbc-a246-1a4179179499_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Ca nou"
+ },
+ {
+  "Nume": "Apple MacBook Air 13\u2033 2022, M2 8 Cores, 8 GB, 8 core GPU",
+  "Pret": "4.49999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/5256c1af-04c2-4e50-bb21-4d4fe42abb35_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/5256c1af-04c2-4e50-bb21-4d4fe42abb35_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Starlight, Ca nou"
+ },
+ {
+  "Nume": "Apple MacBook Pro 15\u2033 Touch Bar 2018, i9 2.9 GHz, 16 GB, AMD Radeon Pro 555X",
+  "Pret": "3.54999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/e6245739-e369-495b-b742-a12c1b1cb125_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/e6245739-e369-495b-b742-a12c1b1cb125_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "512 GB, Space Gray, Bun"
+ },
+ {
+  "Nume": "Apple MacBook Air 13\u2033 2020, M1 8 Cores, 8 GB, 8 core GPU",
+  "Pret": "3.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/6a3aa0be-1144-432f-911e-07ec91413a07_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/6a3aa0be-1144-432f-911e-07ec91413a07_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Gold, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 16 GB, Iris Plus Graphics 645",
+  "Pret": "3.44999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 16 GB, Iris Plus Graphics 645",
+  "Pret": "3.55999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/71ce04fa-25e6-4e3f-bc76-8d316f141dd2_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i5 1.4 GHz, 16 GB, Iris Plus Graphics 645",
+  "Pret": "3.27999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "128 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2019, i7 2.8 GHz, 16 GB, Intel Iris Plus Graphics 655",
+  "Pret": "4.26999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/18635ea7-2f2b-4aab-819d-915f633f5171_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "1 TB, Space Gray, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.15999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/5d271529-eea7-4684-ae67-f30f6dcd0611_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "512 GB, Space Gray, Foarte bun"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.22999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "256 GB, Silver, Excelent"
+ },
+ {
+  "Nume": "Apple MacBook Pro 13\u2033 Touch Bar 2017, i5 3.1 GHz, 8 GB, Intel Iris Plus Graphics 650",
+  "Pret": "2.29999 Lei",
+  "Link": "https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=128 1x, https://cdn.flip.ro/device-images/1c6c4bf2-4581-46d5-b2ea-eee7ff369027_mip@_320.jpg?w=256 2x",
+  "Memorie & Stare": "512 GB, Silver, Foarte bun"
+ }
+]
